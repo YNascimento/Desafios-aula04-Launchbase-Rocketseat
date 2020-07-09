@@ -1,0 +1,13 @@
+{
+  "teachers": [
+    {
+      "id": 1,
+      "name": "facebook",
+      "birth": 560822400000,
+      "degree": "doctor-degree",
+      "classType": "P",
+      "subject": "Toyota Corolla 2007/2008 Abaixo da Tabela",
+      "createdAt": 1594326187208
+    }
+  ]
+}

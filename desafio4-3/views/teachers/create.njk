@@ -1,0 +1,67 @@
+{% extends 'layout.njk' %}
+
+{% block header %}
+
+    <title>Register Teacher</title>
+
+
+{% endblock header %}
+
+{% block content %}
+<form class="teacher-card" method="POST" action="/teachers">
+    <section class="avatar">
+        
+    </section>
+
+    <section class="details">
+        <h3>Detalhes</h3>
+
+        <div class="infos">
+            <div>Avatar URL</div>
+            <div>
+                <input type="url" name="avatar_url" placeholder="http://...">
+            </div>
+        </div>
+        <div class="infos">
+            <div>Nome Completo</div>
+            <div>
+                <input type="text" name="name" placeholder="Digite seu nome aqui">
+            </div>
+        </div>
+        <div class="infos">
+            <div>Data de Nascimento</div>
+            <div>
+                <input type="date" name="birth">
+            </div>
+        </div>
+        <div class="infos">
+            <div>Grau de Escolaridade</div>
+            <div>
+                <select name="degree" id="">
+                    <option value="high-school-degree">Ensino Médio Completo</option>
+                    <option value="college-degree">Ensino Superior Completo</option>
+                    <option value="master-degree">Mestrado</option>
+                    <option value="doctor-degree">Doutorado</option>
+                </select>
+            </div>
+        </div>
+        <div class="infos">
+            <div>Tipo de Aula</div>
+            <div>
+                <span><input type="radio" name="classType" value="P" checked>Presencial</span>
+                <span><input type="radio" name="classType" value="D">À Distância</span>
+            </div>
+        </div>
+        <div class="infos">
+            <div>Área de Atuação</div>
+            <div>
+                <input type="text" name="subject" placeholder="Digite as áreas separado por vírgula">
+            </div>
+        </div>
+        
+        <button type="submit">Salvar</button>
+    </section>
+</form>
+
+{% endblock content %}
+

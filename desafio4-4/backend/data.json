@@ -29,6 +29,24 @@
       "classType": "Presencial",
       "subjects": "Calculo 3, EDO1",
       "createdAt": 1594413483269
+    },
+    {
+      "id": 4,
+      "name": "prof1",
+      "avatar_url": "https://source.unsplash.com/collection/8874679/500x500",
+      "birth": 631152000000,
+      "degree": "college",
+      "classType": "Presencial",
+      "createdAt": 1594477919810
+    },
+    {
+      "id": 5,
+      "name": "Prof2",
+      "avatar_url": "https://source.unsplash.com/collection/8874679/500x500",
+      "birth": 789696000000,
+      "degree": "master",
+      "classType": "À Distancia",
+      "createdAt": 1594477933323
     }
   ]
 }

@@ -155,7 +155,7 @@ input[type='radio']{
     margin-right: 4px;
 }
 
-button[type="submit"]{
+button[type="submit"], .editBtn{
     padding: 8px 0;
     margin-top: 32px;
     width: 100%;
@@ -166,6 +166,12 @@ button[type="submit"]{
     font-size: 16px;
     cursor: pointer;
 }
-button[type="submit"]:hover{
+button[type="submit"]:hover, .editBtn:hover{
     background-color: var(--lightRed-color);
+}
+
+.editBtn{
+    display: block;
+    text-decoration: none;
+    text-align: center;
 }
